@@ -16,7 +16,7 @@ while True:
         print("end .....")
         break
     else:
-        im = ImageGrab.grab((150, 150, 800, 600))
+        im = ImageGrab.grab((150, 150, 1200, 600))
         im.save("./images/" + str(count) + ".png")
         print(button_name+"....")
         f.write(button_name+"\n")
